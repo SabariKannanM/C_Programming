@@ -1,3 +1,7 @@
+
+/*
+positive, negative or zero
+*/
 #include<stdio.h>
 int main(void)
 {
