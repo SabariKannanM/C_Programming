@@ -23,7 +23,7 @@ Output: NO
 #include<stdio.h>
 int main (void){
   unsigned int N;
-  scanf("%d", &N);
+  scanf("%u", &N);
   if(1<=N<=1000000){
   	if(N%400 == 0)
   	printf("YES");
