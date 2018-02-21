@@ -22,7 +22,7 @@ Output: NO
 int main (void){
   unsigned int N,Ncopy,Nrev=0;
   int remainder;
-  scanf("%d", &N);
+  scanf("%u", &N);
   if(N<1000000){
     Ncopy = N;
     while(Ncopy!=0){
