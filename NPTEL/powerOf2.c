@@ -24,7 +24,7 @@ Output: YES
 int main (void){
   unsigned int N, Nrem;
   int i;
-  scanf("%d", &N);
+  scanf("%u", &N);
   if(N>0 && N<=10000000 && N%2==0){
   	for(i=0; N>1; i++){
   	Nrem = N%2;
