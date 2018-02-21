@@ -18,3 +18,23 @@ Input: 123
 Output: NO
 */
 
+#include<stdio.h>
+int main (void){
+  unsigned int N,Ncopy,Nrev=0;
+  int remainder;
+  scanf("%d", &N);
+  if(N<1000000){
+    Ncopy = N;
+    while(Ncopy!=0){
+      remainder = Ncopy%10;
+      Nrev = Nrev*10 + remainder;
+      Ncopy /= 10;
+    }
+    if(N==Nrev)
+      printf("YES");
+    else
+      printf("NO");
+  }
+  else
+    printf("Enter a number between 0 and 1000000");
+}
