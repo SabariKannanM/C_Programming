@@ -33,7 +33,6 @@ void display(){
 }
 
 int main(void) {
-	// your code goes here
 	push();
 	display();
 	pop(3);
